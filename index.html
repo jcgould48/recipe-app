@@ -7,6 +7,25 @@
         <link href="./style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+            <div class="app">
+                    <h1>Recipes</h1>
+                      <section>
+                        <label for="recipe-input">Add to your todo list!</label>
+                        <input class="recipe-input "type="text" name="recipe-input">
+                        <label for="rating">Rating:</label>
+                        <select class="rating" name="rating">
+                          <option value="1">1/5</option>
+                          <option value="2">2/5</option>
+                          <option value="3">3/5</option>
+                          <option value="4">4/5</option>
+                          <option value="5">5/5</option>
+                        </select>
+                        <button class="add-recipe">Add Recipe</button>
+                        <button class="clear-complete">Remove Recipe</button>
+                        <button class="five-star">Five Star Recipes</button>
+                      </section>
+                    <ol class="recipe-list"></ol>
+                  </div>
         
         <script src="./main.js"></script>
     </body>
