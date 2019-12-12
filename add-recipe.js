@@ -1,0 +1,1 @@
+document.querySelector('.recipe-input').addEventListener('click',func)
