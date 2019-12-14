@@ -12,6 +12,5 @@ const printRecipe = function(recipe) {
 
     li.classList.add('recipe-item');
     li.id = recipe.id.toString();
-  
     
   }
