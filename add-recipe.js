@@ -8,8 +8,6 @@ const addRecipe = (text) => {
   }
 
 
-
-
 const input = document.querySelector('.recipe-input');
 
 document.querySelector('.add-recipe').addEventListener('click',function(){
