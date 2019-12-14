@@ -1,1 +1,1 @@
-document.querySelector('.recipe-input').addEventListener('click',func)
+document.querySelector('.add-recipe').addEventListener('click',()=>console.log('4'))
