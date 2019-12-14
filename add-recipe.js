@@ -1,6 +1,7 @@
-const addRecipe = (text) => {
+const addRecipe = (text, src) => {
     let thisRecipe = {
       text: text,
+      src: src,
     }
     currentRecipes.push(thisRecipe);
   
@@ -8,11 +9,12 @@ const addRecipe = (text) => {
   }
 
 
-const input = document.querySelector('.recipe-input');
+const nameInput = document.querySelector('.recipe-input');
+const srcInput = document.querySelector('.image-input')
 
 document.querySelector('.add-recipe').addEventListener('click',function(){
-    printRecipe(addRecipe(input.value));
-    input.value = '';
+    printRecipe(addRecipe(nameInput.value, srcInput.value));
+    nameInput.value = '';
   })
 
 
