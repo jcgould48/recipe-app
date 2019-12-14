@@ -2,6 +2,7 @@ const addRecipe = (text, src) => {
     let thisRecipe = {
       text: text,
       src: src,
+      id: recipes.length,
     }
     currentRecipes.push(thisRecipe);
   
@@ -15,6 +16,8 @@ const srcInput = document.querySelector('.image-input')
 document.querySelector('.add-recipe').addEventListener('click',function(){
     printRecipe(addRecipe(nameInput.value, srcInput.value));
     nameInput.value = '';
+    srcInput.value = '';
+
   })
 
 

@@ -1,7 +1,7 @@
 const printRecipe = function(recipe) {
     const li = document.createElement('li');
     const img = document.createElement('img')
-    const check = document.createElement('input')
+    const checkBox = document.createElement('input')
 
     li.innerText = `${recipe.text}`;
     img.src = `${recipe.src}`;
@@ -14,9 +14,12 @@ const printRecipe = function(recipe) {
     ol.appendChild(img);
     
     li.classList.add('recipe-item');
-    img.classList.add('image-item')
+    img.classList.add(`image-item${recipe.id}`)
     checkBox.classList.add('checked-recipe')
-    // li.id = recipe.id.toString();
+    
+    li.id = recipe.id.toString();
+    img.id = recipe.id.toString();
+    checkBox.id = recipe.id.toString();
     
   }
 
