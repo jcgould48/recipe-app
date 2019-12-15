@@ -10,17 +10,35 @@
     <body>
             <div class="app">
                     <h1>Add your favorite recipes</h1>
+                    <br>
                       <section>
-                        <label for="recipe-input">Add recipe name</label>
-                        <input class="recipe-input" type="text" name="recipe-input">
-                        <label for="link-input">Add a link to a recipe</label>
-                        <input class="link-input" type="text" name="link-input">
-                        <label for="image-input">Add recipe image</label>
-                        <input class="image-input" type="text" name="image-input">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span for="recipe-input" class="input-group-text" id="inputGroup-sizing-default">Recipe name</span>
+                            </div>
+                            <input name="recipe-input" type="text" class="recipe-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span for="link-input" class="input-group-text" id="inputGroup-sizing-default">Link to recipe</span>
+                            </div>
+                            <input name="link-input" type="text" class="link-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span for="image-input" class="input-group-text" id="inputGroup-sizing-default">Link to photo of recipe</span>
+                            </div>
+                            <input name="image-input" type="text" class="image-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            </div>
                         </select>
-                        <button class="add-recipe">Add Recipe</button>
-                        <button class="remove-recipe">Remove Selected Recipe</button>
-                        <button class="remove-all">Remove All Recipes</button>
+                        <br>
+                        <br>
+                        <div>
+                            <button class="add-recipe btn btn-primary" data-toggle="button" aria-pressed="false">Add Recipe</button>
+                            <button class="remove-recipe btn btn-warning" data-toggle="button" aria-pressed="false">Remove Selected Recipe</button>
+                            <button class="remove-all btn btn-danger" data-toggle="button" aria-pressed="false">Remove All Recipes</button>
+                        </div>
+                      <br>  
                       </section>
                     <ul class="recipe-list"></ul>
                   </div>
