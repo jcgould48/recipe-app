@@ -26,6 +26,30 @@ const recipes = [
       link: 'https://www.spendwithpennies.com/fish-tacos-recipe-onion-slaw/',
       id: 3,
     },
+    {
+      text: 'Fish Tacos',
+      src:'https://www.spendwithpennies.com/wp-content/uploads/2013/02/Easy-Fish-Tacos-24.jpg',
+      link: 'https://www.spendwithpennies.com/fish-tacos-recipe-onion-slaw/',
+      id: 3,
+    },
+    {
+      text: 'Fish Tacos',
+      src:'https://www.spendwithpennies.com/wp-content/uploads/2013/02/Easy-Fish-Tacos-24.jpg',
+      link: 'https://www.spendwithpennies.com/fish-tacos-recipe-onion-slaw/',
+      id: 3,
+    },
+    {
+      text: 'Fish Tacos',
+      src:'https://www.spendwithpennies.com/wp-content/uploads/2013/02/Easy-Fish-Tacos-24.jpg',
+      link: 'https://www.spendwithpennies.com/fish-tacos-recipe-onion-slaw/',
+      id: 3,
+    },
+    {
+      text: 'Fish Tacos',
+      src:'https://www.spendwithpennies.com/wp-content/uploads/2013/02/Easy-Fish-Tacos-24.jpg',
+      link: 'https://www.spendwithpennies.com/fish-tacos-recipe-onion-slaw/',
+      id: 3,
+    },
     
   ]
   
