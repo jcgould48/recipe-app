@@ -16,6 +16,11 @@
     ;
 
 }
+.custom-check {
+    height: 30px;
+    width: 30px;
+
+}
 
 body {
  
@@ -39,6 +44,8 @@ body {
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 4rem;
     padding-right: 40px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #footer{
