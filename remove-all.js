@@ -8,5 +8,5 @@ const removeAllRecipe = function() {
 
 document.querySelector('.remove-all').addEventListener('click', () => {
     
-    // removeAllRecipe()
+    removeAllRecipe()
 })
