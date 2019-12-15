@@ -20,7 +20,7 @@ const printRecipe = function(recipe) {
     ol.appendChild(img);
     
     li.classList.add(`recipe-item${recipe.id}`);
-    img.classList.add(`image-item${recipe.id}`)
+    img.classList.add(`image-item${recipe.id}`, 'food')
     checkBox.classList.add('checked-recipe')
     
     li.id = recipe.id.toString();
