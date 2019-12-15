@@ -1,7 +1,7 @@
 #app{
     display: grid;
     grid-template-columns:1fr, 1fr, 1fr ;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 2fr, 2fr, 2fr, 2fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
     grid-template-areas: 
     "hdr hdr hdr"
     "frm frm frm"
@@ -14,8 +14,13 @@
     "div div div"
     "ftr ftr ftr"
     ;
+
 }
 
+body {
+ 
+    background: lightblue;
+}
 
 #frm-line{
     grid-area: frm;
@@ -50,6 +55,13 @@ h1 {
     font-family: cursive;
     font-size: 60px;
     grid-area: hdr;
+}
+
+#footer{
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1 fr
+    
 }
 
 @media(max-width: 1000px){
