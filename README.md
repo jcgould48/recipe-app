@@ -21,6 +21,8 @@ The app is hosted on Surge but the code can also be accessed through Github.
 **Important for the graders** 
 Within the Github Repository is a folder named 'wire-frames' which contains images of the planned wire-frames at the start of this project.
 
+![](wire-frames/full-screen-wire.png)
+
 #### So, how do I use this app?
 
 All your favorite recipes app is very easy to use.  It asks for three inputs and then the user just has to press the add the recipe button.
