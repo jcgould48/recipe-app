@@ -12,22 +12,18 @@ const printRecipe = function(recipe) {
     checkBox.type = 'checkbox'
 
     const ol = document.querySelector('.recipe-list');
-    
-  //   img.onclick = function() {
-  //     window.location.href = recipe.link;
-  // };
-
-    
+  
     ol.appendChild(div);
-    div.appendChild(newA);
     div.appendChild(li);
-    div.appendChild(checkBox);
+    div.appendChild(newA);
     newA.appendChild(img);
+    div.appendChild(checkBox);
     
     div.classList.add(`div-item${recipe.id}`);
     li.classList.add(`recipe-item${recipe.id}`);
     img.classList.add(`image-item${recipe.id}`, 'food')
-    checkBox.classList.add('checked-recipe')
+    checkBox.classList.add('checked-recipe', 'custom-check')
+    
     
     li.id = recipe.id.toString();
     img.id = recipe.id.toString();

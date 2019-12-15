@@ -8,10 +8,10 @@
     "frm frm frm"
     "frm frm frm"
     "btn btn btn"
-    "li li li"
-    "li li li"
-    "li li li"
-    "li li li"
+    "div div div"
+    "div div div"
+    "div div div"
+    "div div div"
     "ftr ftr ftr"
     ;
 }
@@ -29,8 +29,8 @@
 
 #list{
     display: grid;
-    grid-area: li;
-    grid-template-columns: repeat(9, 1fr);
+    grid-area: div;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 4rem;
     padding-right: 40px;
@@ -42,12 +42,57 @@
 }
 
 img {
-    width : 300px;
-    height: 300px;
+    width : 70%;
+    height: 70%;
 }
 
 h1 {
     font-family: cursive;
     font-size: 60px;
     grid-area: hdr;
+}
+
+@media(max-width: 1000px){
+    #list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap: 1rem;
+      }
+   
+
+    #app{  display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: 
+    "hdr hdr"
+    "frm frm"
+    "frm frm"
+    "frm frm"
+    "btn btn"
+    "img img"
+    "img img"
+    "img img"
+    "ftr ftr"
+    ;}
+}
+
+@media(max-width: 500px){
+    #list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-gap: 1rem;
+      }
+     #app{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+      }
+      /* #nav{
+        height:100%;
+        font-size: 25px;
+      }
+      #header{  
+        height: 100%;
+        font-size: 50px;
+    }  */
 }
