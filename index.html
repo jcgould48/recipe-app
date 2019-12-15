@@ -9,40 +9,53 @@
     </head>
     <body>
             <div class="app">
-                    <h1>Add your favorite recipes</h1>
+                    <h1>All your favorite recipes</h1>
                     <br>
-                      <section>
+                    <section id = 'frm-line'>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span for="recipe-input" class="input-group-text" id="inputGroup-sizing-default">Recipe name</span>
                             </div>
                             <input name="recipe-input" type="text" class="recipe-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                            </div>
+                        </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span for="link-input" class="input-group-text" id="inputGroup-sizing-default">Link to recipe</span>
                             </div>
                             <input name="link-input" type="text" class="link-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                            </div>
+                        </div>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span for="image-input" class="input-group-text" id="inputGroup-sizing-default">Link to photo of recipe</span>
                             </div>
                             <input name="image-input" type="text" class="image-input form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                        <!-- <div class="dropdown">
+                            <button class="btn btn-secondary btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Recipe Rating
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" >1 Star</a>
+                                <a class="dropdown-item" >2 Stars</a>
+                                <a class="dropdown-item" >3 Stars</a>
+                                <a class="dropdown-item" >4 Stars</a>
+                                <a class="dropdown-item" >5 Stars</a>
                             </div>
+                        </div> -->
                         </select>
                         <br>
                         <br>
-                        <div>
+                        <div id = "btn-line">
                             <button class="add-recipe btn btn-primary" data-toggle="button" aria-pressed="false">Add Recipe</button>
                             <button class="remove-recipe btn btn-warning" data-toggle="button" aria-pressed="false">Remove Selected Recipe</button>
                             <button class="remove-all btn btn-danger" data-toggle="button" aria-pressed="false">Remove All Recipes</button>
                         </div>
                       <br>  
                       </section>
-                    <ul class="recipe-list"></ul>
-                  </div>
-        
+              
+                    <ul class="recipe-list" id = 'list'></ul>
+            </div>
+            <div id='footer'></div>
         <script src="./main.js"></script>
         <script src="./recipes.js"></script>
         <script src="./add-recipe.js"></script>

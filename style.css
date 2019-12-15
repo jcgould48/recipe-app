@@ -1,8 +1,52 @@
+#app{
+    display: grid;
+    grid-template-columns:1fr, 1fr, 1fr ;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 2fr, 2fr, 2fr, 2fr, 1fr;
+    grid-template-areas: 
+    "hdr hdr hdr"
+    "frm frm frm"
+    "frm frm frm"
+    "frm frm frm"
+    "btn btn btn"
+    "li li li"
+    "li li li"
+    "li li li"
+    "li li li"
+    "ftr ftr ftr"
+    ;
+}
+
+
+#frm-line{
+    grid-area: frm;
+
+}
+
+#btn-line{
+    grid-area: btn;
+
+}
+
+#list{
+    display: grid;
+    grid-area: li;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 4rem;
+}
+
+#footer{
+    grid-area: ftr;
+
+}
+
 img {
     width : 300px;
+    height: 300px;
 }
 
 h1 {
     font-family: cursive;
     font-size: 60px;
+    grid-area: hdr;
 }
