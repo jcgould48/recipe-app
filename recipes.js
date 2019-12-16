@@ -7,7 +7,7 @@ const recipes = [
     
     },
     {
-      text: 'Chicken Picata',
+      text: 'Chicken Piccata',
       src:'https://www.jessicagavin.com/wp-content/uploads/2015/09/chicken-piccata-8-1200.jpg',
       link: 'https://www.foodnetwork.com/recipes/giada-de-laurentiis/chicken-piccata-recipe2-1913809',
       id: 1,
@@ -33,7 +33,7 @@ const recipes = [
       id: 4,
     },
     {
-      text: 'Macaroni and cheese',
+      text: 'Macaroni and Cheese',
       src:'https://images.media-allrecipes.com/userphotos/720x405/4524672.jpg',
       link: 'https://www.allrecipes.com/recipe/18805/old-fashioned-mac-and-cheese/?internalSource=hub%20recipe&referringContentType=Search&clickId=cardslot%202',
       id: 5,
