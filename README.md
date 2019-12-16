@@ -2,7 +2,7 @@
 
 Hello, and welcome to my app! It is hosted through Surge so you can access it any time.
 
-[Follow the All your favorite recipes link!](recipe-tracker.surge.sh)
+[Follow the All your favorite recipes link!](http://recipe-tracker.surge.sh/)
 
 #### About the App
 This is a application that is designed to help you keep track of all your favorite recipes that you have prepared in the past.
@@ -69,5 +69,5 @@ This website can also be used on any device you prefer.
 
 I hope you enjoy!  Please let me know if you find any bugs! 
 
-And tell my professors to give this a good grade.
+**And tell my professors to give this a good grade.**
 
